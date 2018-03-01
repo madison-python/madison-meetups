@@ -1,0 +1,11 @@
+name: madison-meetups
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - seaborn
+  - jupyter
+  - pip:
+    - meetup-api
