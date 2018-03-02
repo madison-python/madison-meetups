@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export MEETUP_API_KEY={{ meetup_api_key }}
+{% if activate_base_conda != None %}source {{ activate_base_conda }}{% endif %}
+{% if conda_env_name != None %}source activate {{ conda_env_name }}{% endif %}
